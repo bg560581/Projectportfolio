@@ -1,0 +1,25 @@
+header {text-align: center;
+        font-size:45px;
+        font-family: fantasy;
+        border-bottom: groove;
+        border-left:groove;
+        border-right:groove;
+        border-top:groove;
+        letter-spacing: 18px;
+        }
+
+ul {list-style:none;
+    text-align: center;
+    
+    }
+
+li {padding-bottom:45px;
+}
+
+body {background-color: teal;
+        color: lightgrey}
+
+p {text-align: center; font-size: 25px
+    }
+
+a:hover, a:active {border-style: groove; border-bottom-color: lightgrey}
