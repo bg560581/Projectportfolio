@@ -5,7 +5,6 @@ header {text-align: center;
         border-left:groove;
         border-right:groove;
         border-top:groove; 
-        
         }
 
 body {background-color: teal;
@@ -18,4 +17,6 @@ p {text-align: center;
 
 a {text-decoration:none;
     color: lightgrey;}
-a:hover, a:active {text-decoration: underline; font-size: 28px; color: red}
+.click a:hover, .click a:active {text-decoration: underline; font-size: 28px; color: red}
+
+

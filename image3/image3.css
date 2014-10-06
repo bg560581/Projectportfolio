@@ -5,6 +5,9 @@ header {text-align: center;
         border-left:groove;
         border-right:groove;
         border-top:groove;
+        margin-left: auto;
+        margin-right: auto;
+        width:200px
         }
 
 body {background-color: teal;

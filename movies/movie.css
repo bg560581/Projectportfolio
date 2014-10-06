@@ -1,0 +1,74 @@
+
+body {background: #58AC77 }
+
+header {text-align: center;
+        font-size: 45px;
+        color: #061E25}
+
+th {font-size: 20px;
+    color:#061E25}
+
+td {padding: 15px;
+    border: groove;
+    border-width: 5px
+}
+
+.mov1 {color: green;
+        background: black;
+        font-family: Miltown}
+
+.mov2 {color: #E2E4E9;
+    background: #0D1B44;
+        font-family: Archivo Narrow;
+        letter-spacing: -1.5px;
+        font-size: 19px}
+
+.mov3 {color:yellow ;
+        background:red;
+        font-family: Droid Sans;
+        letter-spacing: -.5px;}
+
+.mov4 {color: black;
+        background: #996600;
+        font-family: Geneva;}
+
+.mov5 {color: #656572;
+        background: #00024c;
+        font-family: DIN Alternate}
+
+a {text-decoration:none;
+    color: inherit}
+
+a:hover, a:active {font-size: 20px; 
+                    text-decoration: underline;}
+
+#td-link {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+#td-link:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+/*----------ID's------------------*/
+
+#td-link {border-width: 10px
+}
