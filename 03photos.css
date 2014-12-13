@@ -6,7 +6,7 @@ header {text-align: center;
         border-right:groove;
         border-top:groove;
         letter-spacing: 18px;
-        
+        background-color: #006699;
         }
 
 ul {list-style:none;
@@ -19,12 +19,35 @@ li {padding-bottom:45px;
 body {background-color: teal;
         color: lightgrey}
 
-p {text-align: center; font-size: 25px
+p {text-align: center;
+    font-size: 25px
     }
 
-.click a:hover, a:active {border-style: groove; border-bottom-color: lightgrey}
+.click a:hover, a:active {border-style: groove;
+    border-bottom-color: lightgrey}
 
 .center-header {margin-left: auto;
-        margin-right: auto;
-        width:500px;
-        }
+                margin-right: auto;
+                width:500px;
+}
+
+.pic1 {margin:10px;
+        border:groove;
+        padding: 30px;
+        background-color:red}
+
+.pic2 {margin:10px;
+        border:groove;
+        padding: 15px;
+        background-color:green}
+
+.pic3 {border:groove;
+padding:40px;
+background-color: maroon}
+
+.pic4 {margin:10px;
+        border:groove;
+        padding: 20px;
+        background-color:#003300}
+
+.button1 {background-color: green}

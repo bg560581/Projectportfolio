@@ -2,33 +2,83 @@
 <html>
     <head>
         <title>03photos</title>
-        <link rel="stylesheet" type="text/css" href="03photos.css">
+        <link rel="stylesheet" type="text/css" href="03photos.css"> 
     
     </head>
     
     <body>
         <header class="center-header">03photos</header>
-        <ul>
-            <li>
+        <ul class="everything">
+            <li class="text">
         
         
         <p>click on the pictures to get a better view as well as a brief description of the image!!</p>
-        <ul>
-            <li><a href="/Projectportfolio1/Projectportfolio/image1/image1.html"><img src="image1/images1/colors.png" width="275" height="200"></a></li>
-            <li><a href="/Projectportfolio1/Projectportfolio/image2/image2.html"><img src="image2/images2/sunshine.png" width="250" height="200"></a></li>
-            <li><a href="/Projectportfolio1/Projectportfolio/image3/image3.html"><img src="image3/images3/rainbowswirl.jpg" width="300" height="250"></a></li>
-            <li><a href="/Projectportfolio1/Projectportfolio/image4/image4.html"><img src="image4/images4/pinkflower%20copy.png" width="350" height="200"></a></li>
+                <button id="buttonreset">reset size</button>
+                </li>
+        <ul class="pics">
+            <li><button id="button1">IMAGE 1</button><a href="/Projectportfolio1/Projectportfolio/image1/image1.html"><img id="pic" class="pic1" src="image1/images1/colors.png" width="275" height="200"></a><button id="button-1">IMAGE -1</button></li>
+            <li><button id="button2">IMAGE 2</button><a href="/Projectportfolio1/Projectportfolio/image2/image2.html"><img id="pic" class="pic2" src="image2/images2/sunshine.png" width="250" height="200"></a><button id="button-2">IMAGE -2</button></li>
+            <li><button id="button3">IMAGE 3</button><a href="/Projectportfolio1/Projectportfolio/image3/image3.html"><img id="pic" class="pic3" src="image3/images3/rainbowswirl.jpg" width="300" height="250"></a><button id="button-3">IMAGE -3</button></li>
+            <li><button id="button4">IMAGE 4</button><a href="/Projectportfolio1/Projectportfolio/image4/image4.html"><img id="pic" class="pic4" src="image4/images4/pinkflower%20copy.png" width="350" height="200"></a><button id="button-4">IMAGE -4</button></li>
         
+         </ul>
         </ul>
-    
-        
-    
-    
-    
-    
-    
-    
-    
     </body>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+<script>
+$(document).ready(function(){
+    console.log("JQUERY!");
+    $("#button1").click(function(){
+        $(".pic1").animate({
+            height:'+=100px',
+            width:'+=100px'
+        });
+    });
+    $("#button-1").click(function(){
+        $(".pic1").animate({
+            height:'-=100px',
+            width:'-=100px'
+        });
+    });
+    $("#button2").click(function(){
+        $(".pic2").animate({
+            height:'+=100px',
+            width:'+=100px'
+        });
+    });
+    $("#button-2").click(function(){
+        $(".pic2").animate({
+            height:'-=100px',
+            width:'-=100px'
+        });
+    });
+    $("#button3").click(function(){
+        $(".pic3").animate({
+            height:'+=100px',
+            width:'+=100px'
+        });
+    });
+    $("#button-3").click(function(){
+        $(".pic3").animate({
+            height:'-=100px',
+            width:'-=100px'
+        });
+    });
+    $("#button4").click(function(){
+        $(".pic4").animate({
+            height:'+=100px',
+            width:'+=100px'
+        });
+    });
+    $("#button-4").click(function(){
+        $(".pic4").animate({
+            height:'-=50px',
+            width:'-=50px'
+        });
+    });
+});
+</script>
+ 
 </html>
