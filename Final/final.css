@@ -1,0 +1,40 @@
+* {font-family: sans-serif;}
+
+body {
+    background-color: #F7F7F2  
+}
+
+h1, h2, h3, h4, h5 {text-align: center}
+
+p {text-indent: 3em;
+    color:#2B2B2B;
+    font-size: 18px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+h2 {
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+} 
+
+.thanks {
+    color: red;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#heading-top {
+    padding-top:10%
+}
+
+.heading {float: left;
+    padding-left: 10%;
+}
+
+.heading1 {
+    text-align: right;
+    padding-right:10%;
+}
