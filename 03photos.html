@@ -13,8 +13,12 @@
         
         
         <p>click on the pictures to get a better view as well as a brief description of the image!!</p>
-                <button id="buttonreset">reset size</button>
+                <p>
+                <form action="reset">
+                <input type="reset" value="reset">
+            </p>
                 </li>
+            
         <ul class="pics">
             <li><button id="button1">IMAGE 1</button><a href="/Projectportfolio1/Projectportfolio/image1/image1.html"><img id="pic" class="pic1" src="image1/images1/colors.png" width="275" height="200"></a><button id="button-1">IMAGE -1</button></li>
             <li><button id="button2">IMAGE 2</button><a href="/Projectportfolio1/Projectportfolio/image2/image2.html"><img id="pic" class="pic2" src="image2/images2/sunshine.png" width="250" height="200"></a><button id="button-2">IMAGE -2</button></li>
@@ -30,6 +34,8 @@
 <script>
 $(document).ready(function(){
     console.log("JQUERY!");
+    
+    
     $("#button1").click(function(){
         $(".pic1").animate({
             height:'+=100px',
@@ -78,6 +84,7 @@ $(document).ready(function(){
             width:'-=50px'
         });
     });
+    //$(":reset").css("background-color","yellow");
 });
 </script>
  
